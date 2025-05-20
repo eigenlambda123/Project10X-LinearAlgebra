@@ -8,7 +8,7 @@
 
 This repository is designed to help you **learn Linear Algebra deeply and effectively** by building real, hands-on projects covering key concepts from Strang’s book. Instead of passively reading or memorizing, you’ll implement, visualize, and experiment with vectors, matrices, linear transformations, and more.
 
-This is the Linear Algebra counterpart to my [Project10X-The-Backend-Builder-Series](https://github.com/yourusername/backend10x), using a project-based learning approach tailored for math.
+This is the Linear Algebra counterpart to my [Project10X-The-Backend-Builder-Series](https://github.com/eigenlambda123/Project10X-The-Backend-Builder-Series.git), using a project-based learning approach tailored for math.
 
 ---
 
