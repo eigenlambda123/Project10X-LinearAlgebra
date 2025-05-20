@@ -68,5 +68,5 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-*Ready to build Linear Algebra skills the 10X way? Let’s get started!*
+*Made by RM Villa*
 
