@@ -7,6 +7,7 @@
 ## About
 
 This repo documents my journey to **deeply learn Linear Algebra** through code. I’m combining **practical projects** with **exploratory notebooks** to prototype ideas, experiment with visualizations, and truly understand the concepts from Strang’s book.
+
 ---
 
 ## Goals
@@ -67,18 +68,7 @@ The `practice/` folder is where I:
 - Write utilities and test logic before using them in projects
 - Build small demos that help reinforce what I’m studying
 
-These are fast, experimental, and support the main project work.
-
----
-
-### How to I/to This Repo
-
-1. Pick a **project or topic** I’m studying from Strang’s book
-2. Read and work through the relevant textbook sections
-3. Use **practice notebooks** to test, play, and explore
-4. Build or iterate on a **project** to apply what I’ve learned
-5. Create visuals or stretch features to push understanding further
-    
+These are fast, experimental, and support the main project work. 
 
 ---
 
@@ -86,22 +76,22 @@ These are fast, experimental, and support the main project work.
 
 - **Python** — core language
 - **Jupyter Notebooks** — fast experiments and visualization
-- **NumPy**, **Matplotlib**, **SymPy (optional)** — computation + plotting
+- **NumPy**, **Matplotlib**, **SymPy** — computation + plotting
 - Optional extras like Flask or React if I build UI-based tools
     
 
 ---
 
-### 🤝 Contributions
+### Contributions
 
 This is a personal learning project, but if you have feedback, ideas, or corrections — feel free to open an issue or PR.
 
 ---
 
-### 📄 License
+### License
 
 MIT License. See [LICENSE](https://en.wikipedia.org/wiki/MIT_License) for more details.
 
 ---
 
-_Made by RM Villa_
+_Created and Maintained by RM Villa._
