@@ -30,8 +30,10 @@ linear-algebra-10x/
 │   └── ...
 │
 ├── practice/           # Notebooks for concept testing and quick prototypes
-│   ├── 1.1/
-│   ├── 1.2/
+│   ├── Chapter1/
+│   │   ├── 1.1/
+│   │   ├── 1.2/
+│    │  │── 1.3/
 │   └── ...
 │
 ├── assets/             # Diagrams and visuals
