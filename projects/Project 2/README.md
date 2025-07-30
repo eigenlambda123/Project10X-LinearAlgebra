@@ -36,9 +36,7 @@ It is implemented in **pure Python** using `numpy` and `matplotlib`, and structu
 
 * Based on comparing ranks:
 
-  $$
-  \text{rank}([A|b]) \quad \text{vs} \quad \text{number of variables}
-  $$
+  $$\text{rank}([A|b]) \quad \text{vs} \quad \text{number of variables}$$
 
 * Function: `detect_solution_type(A, b)`
 
