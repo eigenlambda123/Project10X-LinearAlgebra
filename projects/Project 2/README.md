@@ -1,8 +1,16 @@
+# **Linear System Solver**
+
 ## Overview
 
-This project is an interactive linear system solver that demonstrates core concepts from Chapter 2 of linear algebra: **representing systems as $Ax = b$**, performing **Gaussian Elimination**, **detecting solution types**, **solving with back substitution**, and **visualizing equations as geometric objects**.
+This project is an interactive solver and visualizer for linear systems of equations, designed to reinforce core concepts from **Chapter 2 of Linear Algebra**:
 
-It is implemented in pure Python using `numpy` and `matplotlib`, and structured for Jupyter notebooks as part of the **Project10X – Linear Algebra** series.
+* Representing systems as \$Ax = b\$
+* Performing **Gaussian Elimination**
+* **Classifying solution types** (unique, infinite, none)
+* **Solving via back substitution**
+* **Visualizing equations as geometric objects**
+
+It is implemented in **pure Python** using `numpy` and `matplotlib`, and structured for interactive use in Jupyter notebooks. Part of the **Project10X – Linear Algebra** series.
 
 ---
 
@@ -10,49 +18,60 @@ It is implemented in pure Python using `numpy` and `matplotlib`, and structured 
 
 ### 1. **Gaussian Elimination**
 
-- Reduce a system $Ax = b$ to Row Echelon Form (REF) using step-by-step elimination.
-- Input: Matrix `A`, vector `b`.
-- Output: Transformed augmented matrix and detailed elimination log.
-- Uses: `GaussianEliminator` class with `.eliminate()` and `.print_steps()` methods.
+* Reduces the system \$Ax = b\$ to **Row Echelon Form (REF)** through forward elimination.
+* Input: Matrix \$A\$, vector \$b\$
+* Output: Augmented matrix in REF, along with step-by-step logs
+* Class: `GaussianEliminator`
+  Methods: `.eliminate()`, `.print_steps()`
 
 ---
 
 ### 2. **Solution Type Detection**
 
-- Automatically classify whether the system has:
-    - A **unique solution**
-    - **Infinite solutions**
-    - **No solution**
+* Automatically detects whether the system has:
 
-- Uses rank comparison:  
-    $\text{rank}([A|b])$ vs number of unknowns.
+  * A **unique solution**
+  * **Infinite solutions**
+  * **No solution**
 
-- Function: `detect_solution_type(A, b)`
+* Based on comparing ranks:
+
+  $$
+  \text{rank}([A|b]) \quad \text{vs} \quad \text{number of variables}
+  $$
+
+* Function: `detect_solution_type(A, b)`
 
 ---
 
 ### 3. **Back Substitution**
 
-- Solve the system when matrix is in upper-triangular form (from Gaussian elimination).
-- Input: Upper-triangular matrix `U`, vector `b`.
-- Output: Final solution vector and step-by-step substitution breakdown.
-- Function: `back_substitution_with_steps(U, b)`
+* Solves upper-triangular systems after elimination.
+* Input: Upper-triangular matrix \$U\$, modified vector \$b\$
+* Output: Solution vector \$x\$ and detailed substitution trace
+* Function: `back_substitution_with_steps(U, b)`
 
 ---
 
 ### 4. **2D and 3D Visualization**
 
-- Geometrically visualize each equation:
-    - As **lines** in 2D $(for \ 2×2)$
-    - As **planes** in 3D $(for \ 3×3)$
+* Plots each equation:
 
-- Highlights the solution as the intersection of lines or planes, if it exists.
-- Function: `visualize_elimination(A, b)`
+  * As **lines** (2×2 systems)
+  * As **planes** (3×3 systems)
+
+* Illustrates how solutions emerge from the **intersection** of geometric objects.
+
+* Function: `visualize_elimination(A, b)`
 
 ---
 
 ## Implementation Details
 
-- All features are modular and built around clean, testable functions and classes.
-- Main interface: `main_menu()` — CLI for testing and demonstration.
-- Primary libraries used: `numpy`, `matplotlib.pyplot`, and `mpl_toolkits.mplot3d`.
+* Modular design using clean functions and classes
+* Command-line driver: `main_menu()` for testing each feature
+* Libraries used:
+
+  * `numpy`
+  * `matplotlib.pyplot`
+  * `mpl_toolkits.mplot3d` (for 3D visuals)
