@@ -43,9 +43,7 @@ It allows you to compute bases, validate the **Rank-Nullity Theorem**, and visua
 
 * Validate the core relation:
 
-  $$
-  \text{rank}(A) + \text{nullity}(A) = \text{number of columns of } A
-  $$
+  $$\text{rank}(A) + \text{nullity}(A) = \text{number of columns of } A$$
 
 * Prints the rank, nullity, and verifies that the relation holds.
 
