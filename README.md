@@ -6,7 +6,10 @@
 
 ## About
 
-This repo documents my journey to **deeply learn Linear Algebra** through code. I’m combining **practical projects** with **exploratory notebooks** to prototype ideas, experiment with visualizations, and truly understand the concepts from Strang’s book.
+This repository chronicles my journey to **deeply learn Linear Algebra** by combining **hands-on projects** with **exploratory Jupyter notebooks**. I'm using code to prototype ideas, build visualizations, and internalize concepts from Gilbert Strang’s textbook.
+
+Each project starts as a **CLI-based prototype**, which I will later evolve into a **full-stack application** to reinforce both mathematical understanding and software engineering skills.
+
 
 ---
 
