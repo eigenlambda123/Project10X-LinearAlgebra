@@ -27,7 +27,7 @@ Each project starts as a **CLI-based prototype**, which I will later evolve into
 ```bash
 linear-algebra-10x/
 │
-├── projects/           # Main projects (10 total planned)
+├── projects/           # Main projects
 │   ├── Project 1/
 │   ├── Project 2/
 │   └── ...
@@ -68,7 +68,7 @@ linear-algebra-10x/
 
 The `practice/` folder is where I:
 
-- Explore quick ideas (e.g., check if vectors are perpendicular)
+- Explore quick ideas
 - Visualize concepts like transformations or matrix operations
 - Write utilities and test logic before using them in projects
 - Build small demos that help reinforce what I’m studying
@@ -79,21 +79,22 @@ These are fast, experimental, and support the main project work.
 
 ### Tools & Libraries
 
-- **Python** — core language
-- **Jupyter Notebooks** — fast experiments and visualization
-- **NumPy**, **Matplotlib**, **SymPy** — computation + plotting
-- Optional extras like Flask or React if I build UI-based tools
+- **Python** 
+- **Jupyter Notebooks**
+- **NumPy**, **Matplotlib**, **SymPy**
+- (In the future) extras like Flask or React once I build UI-based tools
     
 
 ---
 
-### Contributions
+### 
 
-This is a personal learning project, but if you have feedback, ideas, or corrections — feel free to open an issue or PR.
 
 ---
 
-### License
+### License & Contributions
+
+This is a personal learning project, but if you have feedback, ideas, or corrections feel free to open an issue or PR.
 
 MIT License. See [LICENSE](https://en.wikipedia.org/wiki/MIT_License) for more details.
 
