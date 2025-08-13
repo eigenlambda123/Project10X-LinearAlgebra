@@ -2,7 +2,9 @@
 
 > Learning Linear Algebra by building hands-on projects and practice tools inspired by Gilbert Strang’s *Introduction to Linear Algebra*.
 
+
 ---
+
 
 ## About
 
