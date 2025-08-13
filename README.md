@@ -1,4 +1,4 @@
-# Linear Algebra 10X Builder Series
+# Linear Algebra 10X
 
 > Learning Linear Algebra by building hands-on projects and practice tools inspired by Gilbert Strang’s *Introduction to Linear Algebra*.
 
@@ -25,7 +25,7 @@ Each project starts as a **CLI-based prototype**, which I will later evolve into
 ## Repo Structure
 
 ```bash
-linear-algebra-10x/
+Project10x-LinearAlgebra/
 │
 ├── projects/           # Main projects
 │   ├── Project 1/
@@ -82,20 +82,16 @@ These are fast, experimental, and support the main project work.
 - **Python** 
 - **Jupyter Notebooks**
 - **NumPy**, **Matplotlib**, **SymPy**
-- (In the future) extras like Flask or React once I build UI-based tools
+- (Planned) Web tech like **Flask** or **React** for UI-based tools
     
 
 ---
 
-### 
-
-
----
 
 ### License & Contributions
 
-This is a personal learning project, but if you have feedback, ideas, or corrections feel free to open an issue or PR.
 
+This is a **personal learning project**, but suggestions and corrections are welcome.
 MIT License. See [LICENSE](https://en.wikipedia.org/wiki/MIT_License) for more details.
 
 ---
